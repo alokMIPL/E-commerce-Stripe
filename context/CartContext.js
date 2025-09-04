@@ -1,6 +1,5 @@
 "use client";
 
-import { newProduct } from "@/backend/controllers/productControllers";
 import { useRouter } from "next/navigation";
 import { createContext, useState, useEffect } from "react";
 

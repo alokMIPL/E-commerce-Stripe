@@ -73,7 +73,7 @@ const Users = ({ data }) => {
         <div className="mb-6">
           <CustomPagination
             resPerPage={data?.resPerPage}
-            productsCount={data?.ordersCount}
+            productsCount={data?.usersCount}
           />
         </div>
       )}

@@ -4,6 +4,8 @@ const nextConfig = {
   env: {
     API_URL: process.env.API_URL,
     DB_URI: process.env.DB_URI,
+    
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
 
     CLOUD_NAME: process.env.CLOUD_NAME,
     CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
